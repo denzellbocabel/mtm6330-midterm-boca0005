@@ -1,0 +1,424 @@
+/*# sourceMappingURL=main.css.map */
+body {
+  margin: 0 0 1rem 0;
+}
+
+html {
+  overflow-x: initial !important;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav-right {
+  position: static;
+  left: 700px;
+}
+
+.bg-box {
+  background-color: lightblue;
+}
+
+.nav-item {
+  color: black;
+  padding: 7px;
+}
+
+.sub-tag {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  font-size: 0.8rem;
+  color: #807d7c;
+}
+
+.nav-shop {
+  background-color: #6dcff6;
+}
+
+/* DESKTOP VIEW  */
+
+@media screen and (min-width: 62rem) {
+  .nav-right {
+    position: relative;
+    left: 850px;
+  }
+
+  nav {
+    margin: 0rem 0;
+  }
+
+  .sub-tag {
+    position: relative;
+    top: 12px;
+    font-size: 0.8rem;
+    color: #807d7c;
+  }
+}
+.circleBase {
+  border-radius: 50%;
+  behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+}
+
+.type3 {
+  margin: auto;
+  position: relative;
+  top: 50px;
+  width: 500px;
+  height: 500px;
+  border: 2px solid #6dcff6;
+  overflow: hidden;
+}
+
+.fling-minislide {
+  margin: auto;
+  width: 520px;
+  height: 580px;
+  overflow: hidden;
+  position: relative;
+}
+
+.fling-minislide img {
+  position: absolute;
+  animation: fling-minislide 20s infinite;
+  opacity: 0;
+  width: 100%;
+  height: auto;
+}
+
+.img1 {
+  position: relative;
+  right: 15px;
+  bottom: 80px;
+  max-height: 1500px;
+  max-width: 1500px;
+}
+
+.img2 {
+  position: relative;
+  left: 80px;
+  top: 25px;
+  max-height: 500px;
+  max-width: 350px;
+}
+
+.img3 {
+  position: relative;
+  bottom: 30px;
+}
+
+.img4 {
+  position: relative;
+  bottom: 15px;
+}
+
+.title1 {
+  margin: auto;
+  position: relative;
+  bottom: 300px;
+  left: 410px;
+  font-size: 1.5rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.title2 {
+  position: relative;
+  bottom: 310px;
+  left: 410px;
+  font-size: 1.5rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.title3 {
+  position: relative;
+  bottom: 310px;
+  left: 980px;
+  font-size: 1.5rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.title4 {
+  position: relative;
+  bottom: 320px;
+  left: 1020px;
+  font-size: 0.9rem;
+  font-family: 'Raleway', sans-serif;
+  color: #00aeef;
+  text-decoration: underline;
+}
+
+.heading1 {
+  width: 60%;
+  position: relative;
+  left: 60px;
+  top: 10px;
+  font-size: 0.9rem;
+  color: grey;
+}
+
+.mainheading1 {
+  position: relative;
+  left: 60px;
+  font-size: 2.2rem;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: Bold;
+}
+
+hr {
+  display: block;
+  position: relative;
+  left: 60px;
+  background-color: black;
+  height: 1px;
+  width: 200px;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 1em 0;
+  padding: 0.5px;
+}
+
+.paragraph1 {
+  margin: auto;
+  position: relative;
+  width: 700px;
+  bottom: 100px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  padding-left: 150px;
+}
+
+.featured {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.type2 {
+  display: inline-block;
+  margin: auto 2rem;
+  width: 175px;
+  height: 175px;
+  border: 2px solid #6dcff6;
+  overflow: hidden;
+  position: relative;
+}
+.fling-minislide {
+  margin: auto;
+  width: 520px;
+  height: 580px;
+  overflow: hidden;
+  position: relative;
+}
+
+.fling-minislide img {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: auto;
+}
+
+.featuredimg1 {
+  position: relative;
+  max-height: 250px;
+  max-width: 250px;
+}
+
+.featuredimg2 {
+  position: relative;
+  max-height: 250px;
+  max-width: 250px;
+  right: 30px;
+  bottom: 20px;
+}
+
+.featuredimg3 {
+  position: relative;
+  max-height: 350px;
+  max-width: 350px;
+  bottom: 70px;
+  right: 45px;
+}
+
+.imgname1 {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  left: 470px;
+}
+.imgname2 {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  bottom: 38px;
+  left: 685px;
+}
+.imgname3 {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  bottom: 80px;
+  left: 945px;
+}
+
+.comingSoon {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  top: 200px;
+  left: 600px;
+}
+
+.shopIcon {
+  position: relative;
+  top: 250px;
+  left: 700px;
+}
+
+.paragraph1-2 {
+  margin: auto;
+  position: relative;
+  width: 700px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.paragraph2 {
+  margin: auto;
+  position: relative;
+  width: 700px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.mephoto {
+  margin: 0 25%;
+  height: 200px;
+  width: 200px;
+}
+
+.aboutphoto {
+  height: 200px;
+  width: 150px;
+}
+
+.aboutphoto2 {
+  height: 200px;
+  width: 150px;
+}
+
+.portfolioheading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+}
+
+.container.gallery-container {
+  background-color: #fff;
+  color: #35373a;
+  min-height: 100vh;
+  padding: 30px 50px;
+}
+
+.gallery-container h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: bold;
+}
+
+.gallery-container p.page-description {
+  text-align: center;
+  margin: 25px auto;
+  font-size: 18px;
+  color: #999;
+}
+
+.tz-gallery {
+  padding: 40px;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+  padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+  width: 100%;
+  border-radius: 0;
+  position: relative;
+}
+
+.tz-gallery .lightbox:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -13px;
+  margin-left: -13px;
+  opacity: 0;
+  color: #fff;
+  font-size: 26px;
+  font-family: 'Glyphicons Halflings';
+  content: '\e003';
+  pointer-events: none;
+  z-index: 9000;
+  transition: 0.4s;
+}
+
+.tz-gallery .lightbox:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(46, 132, 206, 0.7);
+  content: '';
+  transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+  opacity: 1;
+}
+
+.baguetteBox-button {
+  background-color: transparent !important;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+}
+
+@keyframes fling-minislide {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+.fling-minislide img:nth-child(4) {
+  animation-delay: 0s;
+}
+.fling-minislide img:nth-child(3) {
+  animation-delay: 5s;
+}
+.fling-minislide img:nth-child(2) {
+  animation-delay: 10s;
+}
+.fling-minislide img:nth-child(1) {
+  animation-delay: 15s;
+}
